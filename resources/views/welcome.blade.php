@@ -2,25 +2,25 @@
 <x-app-layout title="HOME">
 
 
-<div class="w-full lg: py-16 sm:py-12  ">
+<div class="w-full lg: py-12 sm:py-8  ">
     <div class="w-full mx-auto ">
-        <div class="bg-local border-b-8 border-blue-900  overflow-hidden bg-auto shadow-xl z-40 sm:rounded-lg opacity-0.1" style="background-image:url('{{ asset('images/csimarital_banner3.jpg')}}');background-repeat: no-repeat;background-size:cover;opacity:1.0;height:400px ">
+        <div class="bg-local border-b-8 border-blue-900  overflow-hidden bg-auto shadow-xl z-40 sm:rounded-lg opacity-0.1" style="background-image:url('{{ asset('images/csimarital_banner3.jpg')}}');background-repeat: no-repeat;background-size:cover;opacity:1.0;height:500px ">
             <div class="container px-18 mx-auto flex flex-wrap flex-col md:flex-row items-center">
                 <!--Left Col-->
                 <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-gray-50 px-12 py-12 text-center md:text-center">
                   <p class="lowercase tracking-loose w-full">csimarital.in</p>
-                  <h1 class="my-4 text-3xl font-bold leading-tight">
+                  <h1 class="my-4 text-xl lg:text-3xl font-bold leading-tight">
                     Look here for the best life partner
                   </h1>
-                  <p class="w-full text-2xl mb-8 text-center">
+                  <p class="w-full text-lg lg:text-2xl mb-8 text-center">
                     for your ward!
                   </p>
 
-
+                  <livewire:bible-verse />
 
 
                 </div>
-
+              
         </div>
     </div>
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 ">
