@@ -36,6 +36,10 @@ return [
                 'path' => '/public/images/AppIcons/192x192.png',
                 'purpose' => 'any'
             ],
+            '196x196' => [
+                'path' => '/public/images/AppIcons/maskable_icon.png',
+                'purpose' => 'any maskable'
+            ],
             '384x384' => [
                 'path' => '/public/images/AppIcons/384x384.png',
                 'purpose' => 'any'

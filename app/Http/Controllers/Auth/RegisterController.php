@@ -55,7 +55,7 @@ class RegisterController extends Controller
                 'surname' => 'required|max:255',
                 'church' => 'required|max:255',
                 'mobile' => 'required|numeric|digits:10',
-                'email' => 'required|email|max:255',
+                'email' => 'required|email|max:255|unique:users,email',
                 'password' => 'required|confirmed',
                 'agree_to_terms_and_conditions' => 'required',
                 'password' => Password::min(8)
